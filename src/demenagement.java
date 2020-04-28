@@ -16,6 +16,9 @@ public class demenagement {
 			 nouveaux_locaux += camion;
 			 System.out.println("Il y a maintenant "+ nouveaux_locaux + " cartons dans les nouveaux locaux. Et il en reste "+ ancien_locaux + " dans les anciens locaux");
 			 camion = 0;
+			 if (ancien_locaux == 0) {
+				 System.out.println("Déménagement fini :)");
+			 }
 			 
 		}
 	}
